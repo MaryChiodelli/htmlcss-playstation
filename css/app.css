@@ -28,7 +28,6 @@
 .hero_image {
     min-height: 585px;
     background: url('../img/jumbo-bg.png') center/cover no-repeat;
-
 }
 
 .hero_logo {
@@ -42,4 +41,10 @@
 
 .debug .best-game {
     height: 500px;
+}
+
+@media (min-width: 992px) {
+    .hero_content {
+        width: 40%;
+    }
 }
