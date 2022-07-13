@@ -1,3 +1,29 @@
+:root {
+    --header-bg-color: #000000;
+    --navbar-bg-color: #FFFFFF;
+    --games-bg-color: #1F1F1F;
+    --psplus-bg-color: #BEBCBB;
+    --psnow-bg-color: #161C3B;
+    --footer-bg-color: #00439C;
+}
+
+.main-header {
+    background-color: var(--header-bg-color);
+}
+
+.header-top {
+    padding: 12px;
+}
+
+.header-top img {
+    height: 12px;
+}
+
+.main-header .icon {
+    padding: 8px;
+    height: 40px;
+}
+
 .debug .hero_content,
 .debug .best-game {
     height: 500px;
