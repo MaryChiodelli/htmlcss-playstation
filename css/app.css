@@ -35,6 +35,10 @@
     height: 30px;
 }
 
+.hero_thumbnail img {
+    border-radius: 1rem;
+}
+
 
 .debug .best-game {
     height: 500px;
