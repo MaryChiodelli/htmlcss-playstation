@@ -24,7 +24,18 @@
     height: 40px;
 }
 
-.debug .hero_content,
+/* HERO */
+.hero_image {
+    min-height: 585px;
+    background: url('../img/jumbo-bg.png') center/cover no-repeat;
+
+}
+
+.hero_logo {
+    height: 30px;
+}
+
+
 .debug .best-game {
     height: 500px;
 }
