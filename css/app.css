@@ -2,11 +2,11 @@
     --header-bg-color: #000000;
     --navbar-bg-color: #FFFFFF;
     --footer-bg-color: #00439C;
-    --psnow-bg-color: #161C3B;
     --dark-gray: #1F1F1F;
     --gray: #BEBCBB;
     --light-gray: #D9DADC;
     --blue: #2D64E6;
+    --dark-blue: #161C3B;
     --orange: #CD3D0F;
 }
 
@@ -57,6 +57,10 @@ p.text {
 
 .bg_dark_gray {
     background-color: var(--dark-gray);
+}
+
+.bg_dark_blue {
+    background-color: var(--dark-blue);
 }
 
 .bg_blue {
