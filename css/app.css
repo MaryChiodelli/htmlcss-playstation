@@ -34,7 +34,8 @@ p.text {
     margin-bottom: 0;
 }
 
-.games h2.title {
+.games h2.title,
+.games h2.socials {
     margin-bottom: 1.25rem;
     font-size: 2.125rem;
 }
@@ -80,11 +81,6 @@ p.text {
 
 .img_rounded {
     border-radius: 1rem;
-}
-
-.game-logo {
-    width: 60%;
-    margin-bottom: 1.875rem;
 }
 
 .game-logo {
@@ -194,6 +190,10 @@ p.text {
 @media (min-width: 768px) {
     .ps5_thumbnail .col p {
         display: block;
+    }
+
+    .img_social {
+        width: 120px;
     }
 }
 
