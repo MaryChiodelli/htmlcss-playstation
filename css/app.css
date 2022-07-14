@@ -5,6 +5,36 @@
     --psplus-bg-color: #BEBCBB;
     --psnow-bg-color: #161C3B;
     --footer-bg-color: #00439C;
+    --blue: #2D64E6;
+}
+
+/* TYPOGRAPHY */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2.title,
+h3.title {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+}
+
+p.text {
+    color: var(--blue);
+    margin-bottom: 0;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* UTILITY */
+.bg_blue {
+    background-color: var(--blue);
+    color: white;
 }
 
 .main-header {
@@ -57,7 +87,32 @@
 
 .img-thumbnail:hover {
     border-width: 2px;
-    border-color: #318DD7;
+    border-color: var(--blue);
+}
+
+/* MAIN */
+.ps5_thumbnail .col {
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+.ps5_thumbnail .col:hover {
+    border-bottom: 2px solid var(--blue);
+}
+
+.ps5_thumbnail .col:hover::before  {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ps5_thumbnail .col::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 
