@@ -19,6 +19,22 @@
     height: 12px;
 }
 
+.dropdown-toggle::after {
+    border: none;
+    content: '\f107';
+    font: var(--fa-font-solid);
+}
+
+.dropdown-toggle.show::after {
+    border: none;
+    content: '\f106';
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
 .main-header .icon {
     padding: 8px;
     height: 40px;
