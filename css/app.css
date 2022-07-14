@@ -91,20 +91,22 @@ p.lead {
 }
 
 /* MAIN */
-.ps5_thumbnail .col {
+.ps5_thumbnail .product_card {
     position: relative;
+    padding: 0 1rem;
+    height: 100%;
     border-bottom: 2px solid white;
 }
 
-.ps5_thumbnail .col:hover {
+.ps5_thumbnail .product_card:hover {
     border-bottom: 2px solid var(--blue);
 }
 
-.ps5_thumbnail .col:hover::before  {
+.ps5_thumbnail .product_card:hover::before  {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.ps5_thumbnail .col::before {
+.ps5_thumbnail .product_card::before {
     content: '';
     display: block;
     position: absolute;
@@ -115,9 +117,23 @@ p.lead {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+.ps5_thumbnail .col p {
+    display: none;
+}
+
+.ps5_thumbnail .col img {
+    margin-bottom: 1rem;
+}
+
 
 .debug .best-game {
     height: 500px;
+}
+
+@media (min-width: 768px) {
+    .ps5_thumbnail .col p {
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
