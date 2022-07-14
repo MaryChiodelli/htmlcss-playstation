@@ -1,10 +1,10 @@
 :root {
     --header-bg-color: #000000;
     --navbar-bg-color: #FFFFFF;
-    --games-bg-color: #1F1F1F;
     --psplus-bg-color: #BEBCBB;
     --psnow-bg-color: #161C3B;
     --footer-bg-color: #00439C;
+    --dark-gray: #1F1F1F;
     --blue: #2D64E6;
     --orange: #CD3D0F;
 }
@@ -23,17 +23,32 @@ h3.title {
     letter-spacing: 0.5%;
 }
 
-p.text {
-    color: var(--blue);
-    margin-bottom: 0;
-}
-
 p.lead {
     font-size: 1.25rem;
     margin-bottom: 2rem;
 }
 
+p.text {
+    color: var(--blue);
+    margin-bottom: 0;
+}
+
+.games h2.title {
+    margin-bottom: 1.25rem;
+    font-size: 2.125rem;
+}
+
+.games p.lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
 /* UTILITY */
+.bg_dark_gray {
+    background-color: var(--dark-gray);
+}
+
 .bg_blue {
     background-color: var(--blue);
     color: white;
@@ -42,6 +57,10 @@ p.lead {
 .bg_orange {
     background-color: var(--orange);
     color: white;
+}
+
+.img_rounded {
+    border-radius: 1rem;
 }
 
 .game-logo {
@@ -95,7 +114,7 @@ p.lead {
 
 .img-thumbnail {
     border-radius: 1rem;
-    border-color: white;
+    border-color: transparent;
 }
 
 .img-thumbnail:hover {
