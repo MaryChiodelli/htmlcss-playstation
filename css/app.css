@@ -44,6 +44,11 @@ p.text {
     margin-bottom: 1.5rem;
 }
 
+.ps4 h3.title,
+.ps4 p.lead {
+    margin-bottom: 1.25rem;
+}
+
 /* UTILITY */
 .bg_dark_gray {
     background-color: var(--dark-gray);
