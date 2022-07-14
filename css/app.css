@@ -50,8 +50,14 @@
     height: 30px;
 }
 
-.hero_thumbnail img {
+.img-thumbnail {
     border-radius: 1rem;
+    border-color: white;
+}
+
+.img-thumbnail:hover {
+    border-width: 2px;
+    border-color: #318DD7;
 }
 
 
