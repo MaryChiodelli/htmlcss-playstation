@@ -125,9 +125,9 @@ p.lead {
     margin-bottom: 1rem;
 }
 
-
-.debug .best-game {
-    height: 500px;
+/* best-game */
+.best-game {
+    background: url('../img/it-takes-two-hero-banner-desktop.jpg') center/cover no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -137,7 +137,8 @@ p.lead {
 }
 
 @media (min-width: 992px) {
-    .hero_content {
+    .hero_content,
+    .best-game_content {
         width: 40%;
     }
 }
