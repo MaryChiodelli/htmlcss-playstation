@@ -51,6 +51,11 @@ p.text {
     margin-bottom: 1.25rem;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 /* UTILITY */
 .bg_gray {
     background-color: var(--gray);
@@ -62,6 +67,10 @@ p.text {
 
 .bg_dark_blue {
     background-color: var(--dark-blue);
+}
+
+.footer_bg_color {
+    background-color: var(--footer-bg-color);
 }
 
 .bg_blue {
