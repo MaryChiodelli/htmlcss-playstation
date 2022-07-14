@@ -1,10 +1,11 @@
 :root {
     --header-bg-color: #000000;
     --navbar-bg-color: #FFFFFF;
-    --psplus-bg-color: #BEBCBB;
     --psnow-bg-color: #161C3B;
     --footer-bg-color: #00439C;
     --dark-gray: #1F1F1F;
+    --gray: #BEBCBB;
+    --light-gray: #D9DADC;
     --blue: #2D64E6;
     --orange: #CD3D0F;
 }
@@ -50,6 +51,10 @@ p.text {
 }
 
 /* UTILITY */
+.bg_gray {
+    background-color: var(--gray);
+}
+
 .bg_dark_gray {
     background-color: var(--dark-gray);
 }
@@ -64,11 +69,26 @@ p.text {
     color: white;
 }
 
+.bg_light_gray {
+    background-color: var(--light-gray);
+    color: var(--blue);
+}
+
 .img_rounded {
     border-radius: 1rem;
 }
 
 .game-logo {
+    width: 60%;
+    margin-bottom: 1.875rem;
+}
+
+.game-logo {
+    width: 60%;
+    margin-bottom: 1.875rem;
+}
+
+.ps-logos {
     width: 60%;
     margin-bottom: 1.875rem;
 }
