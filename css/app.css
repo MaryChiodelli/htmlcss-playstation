@@ -76,6 +76,13 @@ p.text {
 footer a {
     text-decoration: none;
     color: white;
+    line-height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
 }
 
 /* UTILITY */
@@ -182,11 +189,10 @@ footer a {
 
 .img-thumbnail {
     border-radius: 1rem;
-    border-color: transparent;
+    border: 2px solid transparent;
 }
 
 .img-thumbnail:hover {
-    border-width: 2px;
     border-color: var(--blue);
 }
 
