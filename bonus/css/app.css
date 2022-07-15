@@ -143,6 +143,44 @@ footer a {
     margin-bottom: 1.875rem;
 }
 
+/* buttons */
+main .btn-wrapper {
+    display: inline-block;
+    padding: 2px;
+    border: 3px solid transparent;
+    border-radius: 999px;
+}
+
+.hero .btn-wrapper:hover,
+.best-game .btn-wrapper:hover {
+    border-color: var(--orange);
+}
+
+.ps5 .btn-wrapper:hover,
+.ps4 .btn-wrapper:hover {
+    border-color: var(--blue);
+}
+
+.ps-plus .btn-wrapper:hover {
+    border-color: var(--light-gray);
+}
+
+.ps-now .btn-wrapper:hover {
+    border-color: white;
+}
+
+main a.btn:hover {
+    color: white;
+}
+
+.ps-plus a.btn:hover {
+    color: var(--blue);
+}
+
+.ps-now a.btn:hover {
+    color: black;
+}
+
 /* HEADER */
 .main-header {
     background-color: var(--header-bg-color);
