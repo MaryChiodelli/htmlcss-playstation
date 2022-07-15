@@ -191,6 +191,33 @@ footer a {
 .dropdown-menu {
     border: 1px solid white;
     border-radius: 0;
+    text-align: center;
+}
+
+.dropdown-item_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dropdown-item_top .item-wrapper {
+    padding: 0 1.5rem;
+    font-weight: 500;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: white;
+}
+
+.dropdown-item_bottom a.nav-link::before {
+    content: '\f111';
+    display: inline-block;
+    font: var(--fa-font-solid);
+    color: var(--blue);
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+    vertical-align: middle;
 }
 
 /* HERO */
