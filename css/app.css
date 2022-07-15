@@ -18,15 +18,15 @@ html {
 h1.title,
 h2.title,
 h3.title {
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     font-size: 2.5rem;
     font-weight: 400;
-    letter-spacing: 0.5%;
+    letter-spacing: 0.005em;
 }
 
 p.lead {
     font-size: 1.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.875rem;
 }
 
 p.text {
@@ -34,21 +34,43 @@ p.text {
     margin-bottom: 0;
 }
 
+.hero h1.title,
+.best-game h2.title {
+    margin-bottom: 1.875rem;
+}
+
+.hero p.lead,
+.best-game p.lead {
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .games h2.title,
-.games h2.socials {
-    margin-bottom: 1.25rem;
+.socials h2.title {
+    margin-bottom: 1rem;
     font-size: 2.125rem;
 }
 
+.games p.lead,
+.socials p.lead {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
 .games p.lead {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .ps4 h3.title,
 .ps4 p.lead {
     margin-bottom: 1.25rem;
+}
+
+.ps-plus p,
+.ps-now p {
+    margin-bottom: 1.875rem;
 }
 
 footer a {
