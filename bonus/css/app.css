@@ -177,6 +177,22 @@ footer a {
     height: 40px;
 }
 
+/* navbar dropdown-menu */
+.navbar-brand,
+.nav-item {
+    position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
 /* HERO */
 .hero_image {
     min-height: 585px;
