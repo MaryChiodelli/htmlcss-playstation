@@ -1,0 +1,258 @@
+:root {
+    --header-bg-color: #000000;
+    --navbar-bg-color: #FFFFFF;
+    --footer-bg-color: #00439C;
+    --dark-gray: #1F1F1F;
+    --gray: #BEBCBB;
+    --light-gray: #D9DADC;
+    --blue: #2D64E6;
+    --dark-blue: #161C3B;
+    --orange: #CD3D0F;
+}
+
+/* TYPOGRAPHY */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.title,
+h2.title,
+h3.title {
+    margin-bottom: 1.75rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+p.text {
+    color: var(--blue);
+    margin-bottom: 0;
+}
+
+.hero h1.title,
+.best-game h2.title {
+    margin-bottom: 1.875rem;
+}
+
+.hero p.lead,
+.best-game p.lead {
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.games h2.title,
+.socials h2.title {
+    margin-bottom: 1rem;
+    font-size: 2.125rem;
+}
+
+.games p.lead,
+.socials p.lead {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.games p.lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.ps4 h3.title,
+.ps4 p.lead {
+    margin-bottom: 1.25rem;
+}
+
+.ps-plus p,
+.ps-now p {
+    margin-bottom: 1.875rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+/* UTILITY */
+.py-6 {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.pt-6 {
+    padding-top: 4.5rem;
+}
+.pb-6 {
+    padding-bottom: 4.5rem;
+}
+
+.bg_gray {
+    background-color: var(--gray);
+}
+
+.bg_dark_gray {
+    background-color: var(--dark-gray);
+}
+
+.bg_dark_blue {
+    background-color: var(--dark-blue);
+}
+
+.footer_bg_color {
+    background-color: var(--footer-bg-color);
+}
+
+.bg_blue {
+    background-color: var(--blue);
+    color: white;
+}
+
+.bg_orange {
+    background-color: var(--orange);
+    color: white;
+}
+
+.bg_light_gray {
+    background-color: var(--light-gray);
+    color: var(--blue);
+}
+
+.img_rounded {
+    border-radius: 1rem;
+}
+
+.game-logo {
+    width: 60%;
+    margin-bottom: 1.875rem;
+}
+
+.ps-logos {
+    width: 60%;
+    margin-bottom: 1.875rem;
+}
+
+/* HEADER */
+.main-header {
+    background-color: var(--header-bg-color);
+}
+
+.header-top {
+    padding: 12px;
+}
+
+.header-top img {
+    height: 12px;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    content: '\f107';
+    font: var(--fa-font-solid);
+}
+
+.dropdown-toggle.show::after {
+    border: none;
+    content: '\f106';
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.main-header .icon {
+    padding: 8px;
+    height: 40px;
+}
+
+/* HERO */
+.hero_image {
+    min-height: 585px;
+    background: url('../img/jumbo-bg.png') center/cover no-repeat;
+}
+
+.hero_logo {
+    height: 30px;
+}
+
+.img-thumbnail {
+    border-radius: 1rem;
+    border: 2px solid transparent;
+}
+
+.img-thumbnail:hover {
+    border-color: var(--blue);
+}
+
+/* MAIN */
+.ps5_thumbnail .product_card {
+    position: relative;
+    padding: 0 1rem;
+    height: 100%;
+    border-bottom: 2px solid white;
+}
+
+.ps5_thumbnail .product_card:hover {
+    border-bottom: 2px solid var(--blue);
+}
+
+.ps5_thumbnail .product_card:hover::before  {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ps5_thumbnail .product_card::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.ps5_thumbnail .col p {
+    display: none;
+}
+
+.ps5_thumbnail .col img {
+    margin-bottom: 1rem;
+}
+
+/* best-game */
+.best-game {
+    background: url('../img/it-takes-two-hero-banner-desktop.jpg') center/cover no-repeat;
+}
+
+@media (min-width: 768px) {
+    .ps5_thumbnail .col p {
+        display: block;
+    }
+
+    .img_social {
+        width: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero_content,
+    .best-game_content {
+        width: 40%;
+    }
+
+    .game-logo {
+        width: 210px;
+    }
+}
