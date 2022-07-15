@@ -149,6 +149,7 @@ main .btn-wrapper {
     padding: 2px;
     border: 3px solid transparent;
     border-radius: 999px;
+    transition: border-color 0.25s ease-in-out 0s;
 }
 
 .hero .btn-wrapper:hover,
@@ -315,6 +316,19 @@ main a.btn:hover {
 /* best-game */
 .best-game {
     background: url('../img/it-takes-two-hero-banner-desktop.jpg') center/cover no-repeat;
+}
+
+/* img hover */
+.games img,
+.discounts img,
+.socials img {
+    transition: transform 0.25s ease-in-out 0s;
+}
+
+.games img:hover,
+.discounts img:hover,
+.socials img:hover {
+    transform: scale(1.015);
 }
 
 @media (min-width: 768px) {
